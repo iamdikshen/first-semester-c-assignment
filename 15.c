@@ -14,10 +14,6 @@ int main(int argc, char const *argv[])
     fourth=temp/10;
     temp=num%10;
     fifth=temp/1;
-    printf("%d\n",first*10000);
-    printf("%d\n",second*1000);
-    printf("%d\n",third*100);
-    printf("%d\n",fourth*10);
-    printf("%d\n",fifth*1);
+    printf("the sum of the digit is %d",first+second+third+fourth+fifth);
     return 0;
 }
